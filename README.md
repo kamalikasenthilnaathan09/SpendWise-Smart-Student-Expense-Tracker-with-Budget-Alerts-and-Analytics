@@ -1,82 +1,195 @@
-# SPENDWISE – SMART STUDENT EXPENSE TRACKER
+# 💰 SpendWise – Smart Student Expense Tracker
 
-## PROJECT OVERVIEW
+## 📌 Project Overview
 
-SpendWise is a smart student expense tracker designed to help students manage daily spending, track expenses, set monthly budgets, and receive budget alert notifications. The system also provides expense analytics using charts and reports.
+SpendWise is a smart student expense tracking web application that helps students manage their daily expenses, monitor budgets, receive budget alerts, and analyze spending patterns through reports and charts.
 
----
-
-## OBJECTIVES
-
-* Track daily expenses easily
-* Manage monthly budget limits
-* Receive budget alert notifications
-* Analyze spending patterns
-* Generate expense reports
+The application is designed to improve financial awareness and help students make better spending decisions.
 
 ---
 
-## MODULES
+## 🎯 Objectives
 
-* User Login
-* User Registration
-* Dashboard
-* Expense Management
-* Budget Management
-* Reports & Analytics
-* Notifications
-
----
-
-## TECHNOLOGIES USED
-
-* HTML
-* CSS
-* JavaScript
-* PHP
-* MySQL
-* Bootstrap
-* Chart.js
+- Track daily expenses efficiently
+- Manage monthly budgets
+- Monitor spending habits
+- Receive budget limit alerts
+- Generate expense reports
+- Visualize expenses using charts
 
 ---
 
-## CURRENT PROJECT STATUS
+## ✨ Features
 
-Completed Work Till Jun-13:
+### 🔐 User Authentication
+- User Registration
+- Secure Login
+- Logout Functionality
 
-* Project Planning
-* Requirement Gathering
-* ER Diagram
-* Use Case Diagram
-* Database Design
-* UI Wireframe
-* Frontend Environment Setup
+### 💵 Expense Management
+- Add New Expenses
+- Save Expense Records
+- View Expense Details
 
----
+### 📊 Budget Tracking
+- Monthly Budget Monitoring
+- Budget Limit Alerts
+- Expense Notifications
 
-## PROJECT DIAGRAMS
+### 📈 Analytics
+- Expense Charts
+- Spending Analysis
+- Visual Reports
 
-### ER Diagram
-
-Uploaded in repository
-
-### Use Case Diagram
-
-Uploaded in repository
-
----
-
-## FUTURE IMPLEMENTATION
-
-* Dashboard Development
-* CRUD Operations
-* Expense Analytics
-* API Integration
-* Notification System
+### 📄 Reports
+- Printable Expense Reports
+- Expense Summary
 
 ---
 
-## AUTHOR
+## 🛠️ Technologies Used
 
-Kamalika YS
-VSB Engineering College
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+
+### Backend
+- PHP
+
+### Database
+- MySQL
+
+### Development Tools
+- XAMPP
+- Visual Studio Code
+- GitHub
+
+---
+
+## 📂 Project Structure
+
+frontend/
+
+├── index.php
+
+├── login.php
+
+├── signup.php
+
+├── dashboard.php
+
+├── save_expense.php
+
+├── notifications.php
+
+├── chart.php
+
+├── print.php
+
+├── logout.php
+
+├── db.php
+
+└── logo.png
+
+docs/
+
+├── ER Diagram
+
+└── Use Case Diagram
+
+---
+
+## 🗄️ Database
+
+Database Name:
+
+spendwise
+
+Main Tables:
+
+### users
+Stores user account information.
+
+### expenses
+Stores expense records entered by users.
+
+---
+
+## 📋 Modules
+
+### 1. User Module
+Handles user registration, login, and logout.
+
+### 2. Expense Module
+Allows users to add and manage expenses.
+
+### 3. Budget Module
+Tracks expenses against budget limits.
+
+### 4. Analytics Module
+Displays expense charts and spending statistics.
+
+### 5. Report Module
+Generates printable expense reports.
+
+---
+
+## 🚀 How to Run the Project
+
+### Step 1
+Install XAMPP.
+
+### Step 2
+Start Apache and MySQL.
+
+### Step 3
+Create a database named:
+
+spendwise
+
+### Step 4
+Import the required database tables.
+
+### Step 5
+Copy the project folder into:
+
+xampp/htdocs/
+
+### Step 6
+Open your browser and run:
+
+http://localhost/SpendWise/
+
+---
+
+## 📷 Project Diagrams
+
+- ER Diagram
+- Use Case Diagram
+
+Both diagrams are available in this repository.
+
+---
+
+## 🎓 Academic Purpose
+
+This project was developed as a Mini Project for academic learning and demonstration purposes.
+
+---
+
+## 👩‍💻 Developed By
+
+**Kamalika Senthilnathan**
+
+B.Tech Artificial Intelligence and Data Science
+
+2026
+
+---
+
+## 📄 License
+
+This project is intended for educational and academic purposes only.
