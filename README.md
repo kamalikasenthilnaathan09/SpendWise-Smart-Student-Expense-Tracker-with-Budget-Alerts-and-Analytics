@@ -1,21 +1,21 @@
-# 💰 SpendWise – Smart Student Expense Tracker
+# 💰 SpendWise – Smart Student Expense Tracker with Budget Alerts and Analytics
 
 ## 📌 Project Overview
 
-SpendWise is a smart student expense tracking web application that helps students manage their daily expenses, monitor budgets, receive budget alerts, and analyze spending patterns through reports and charts.
+SpendWise is a modern web-based personal expense management system designed primarily for students to manage their finances efficiently. The application enables users to record income and expenses, monitor monthly budgets, analyze spending habits through interactive charts, generate financial reports, and set savings goals.
 
-The application is designed to improve financial awareness and help students make better spending decisions.
+The project provides a clean, user-friendly dashboard with real-time financial insights to help users make informed spending decisions.
 
 ---
 
 ## 🎯 Objectives
 
-- Track daily expenses efficiently
-- Manage monthly budgets
-- Monitor spending habits
-- Receive budget limit alerts
-- Generate expense reports
-- Visualize expenses using charts
+- Track daily income and expenses
+- Monitor monthly budgets and savings
+- Analyze spending patterns
+- Generate financial reports
+- Set personal savings goals
+- Improve financial awareness among students
 
 ---
 
@@ -24,26 +24,55 @@ The application is designed to improve financial awareness and help students mak
 ### 🔐 User Authentication
 - User Registration
 - Secure Login
-- Logout Functionality
+- Logout
+- Session Management
 
-### 💵 Expense Management
-- Add New Expenses
-- Save Expense Records
-- View Expense Details
+### 💰 Transaction Management
+- Add Income
+- Add Expenses
+- View Transaction History
+- Delete Transactions
+- Search Transactions
+- Filter by Type, Category, and Date
 
-### 📊 Budget Tracking
-- Monthly Budget Monitoring
-- Budget Limit Alerts
-- Expense Notifications
+### 📊 Dashboard
+- Current Balance
+- Total Income
+- Total Expenses
+- Savings Overview
+- Today's Expenses
+- Budget Usage
+- Top Spending Category
+- Monthly Spending Heatmap
+- Smart Financial Insights
 
 ### 📈 Analytics
-- Expense Charts
-- Spending Analysis
-- Visual Reports
+- Income vs Expense Analysis
+- Monthly Spending Charts
+- Category-wise Expense Distribution
+- Budget Analysis
+- Spending Trends
 
 ### 📄 Reports
-- Printable Expense Reports
-- Expense Summary
+- Financial Summary
+- Transaction Reports
+- Printable Reports
+
+### 👤 Profile Management
+- View User Profile
+- Account Information
+
+### ⚙️ Settings
+- Monthly Budget Configuration
+- Savings Goal Management
+- Currency Preference
+- Notification Settings
+- Dark Mode Support
+
+### 🔔 Notifications
+- Budget Alerts
+- Expense Notifications
+- Financial Updates
 
 ---
 
@@ -61,147 +90,209 @@ The application is designed to improve financial awareness and help students mak
 ### Database
 - MySQL
 
+### Charts
+- Chart.js
+
 ### Development Tools
 - XAMPP
 - Visual Studio Code
-- GitHub
+- Git & GitHub
 
 ---
 
 ## 📂 Project Structure
 
-frontend/
-
-├── index.php
-
-├── login.php
-
-├── signup.php
-
+```
+SpendWise/
+│
+├── assets/
+│
+├── includes/
+│
+├── screenshots/
+│   ├── login.png
+│   ├── signup.png
+│   ├── dashboard.png
+│   ├── transaction.png
+│   ├── analysis.png
+│   ├── reports.png
+│   ├── profile.png
+│   └── settings.png
+│
+├── analytics.php
 ├── dashboard.php
-
-├── save_expense.php
-
-├── notifications.php
-
-├── chart.php
-
-├── print.php
-
-├── logout.php
-
 ├── db.php
-
-└── logo.png
-
-docs/
-
-├── ER Diagram
-
-└── Use Case Diagram
+├── delete.php
+├── index.php
+├── login.php
+├── logout.php
+├── notifications.php
+├── profile.php
+├── reports.php
+├── save_transaction.php
+├── settings.php
+├── setup_database.php
+├── signup.php
+├── transactions.php
+├── update_preference.php
+│
+├── er_diagram.png
+├── usecase_diagram.png
+├── logo.png
+├── PROJECT_DETAILS.md
+└── README.md
+```
 
 ---
 
 ## 🗄️ Database
 
-Database Name:
+**Database Name**
 
+```
 spendwise
+```
 
-Main Tables:
+### Main Tables
 
-### users
-Stores user account information.
-
-### expenses
-Stores expense records entered by users.
+- users
+- transactions
 
 ---
 
 ## 📋 Modules
 
-### 1. User Module
-Handles user registration, login, and logout.
+### 1. Authentication Module
+Handles user registration, login, logout, and session management.
 
-### 2. Expense Module
-Allows users to add and manage expenses.
+### 2. Transaction Module
+Manages income and expense records, transaction history, filtering, and deletion.
 
-### 3. Budget Module
-Tracks expenses against budget limits.
+### 3. Dashboard Module
+Displays financial summaries, savings, balance, heatmap, and smart insights.
 
 ### 4. Analytics Module
-Displays expense charts and spending statistics.
+Provides graphical analysis of spending patterns using charts and statistics.
 
-### 5. Report Module
-Generates printable expense reports.
+### 5. Reports Module
+Generates financial reports and transaction summaries.
 
-## 📸 Project Screenshots
+### 6. Profile Module
+Displays user account information.
 
-### Login
+### 7. Settings Module
+Allows users to configure budgets, savings goals, currency, notifications, and appearance.
+
+---
+
+# 📸 Project Screenshots
+
+## 🔐 Login
+
 ![Login](screenshots/login.png)
 
-### Signup
+---
+
+## 📝 Signup
+
 ![Signup](screenshots/signup.png)
 
-### Dashboard
+---
+
+## 🏠 Dashboard
+
 ![Dashboard](screenshots/dashboard.png)
 
-### Transactions
+---
+
+## 💳 Transactions
+
 ![Transactions](screenshots/transaction.png)
 
-### Analytics
+---
+
+## 📊 Analytics
+
 ![Analytics](screenshots/analysis.png)
 
-### Reports
+---
+
+## 📄 Reports
+
 ![Reports](screenshots/reports.png)
 
-### Profile
+---
+
+## 👤 Profile
+
 ![Profile](screenshots/profile.png)
 
-### Settings
+---
+
+## ⚙️ Settings
+
 ![Settings](screenshots/settings.png)
+
 ---
 
 ## 🚀 How to Run the Project
 
 ### Step 1
-Install XAMPP.
+
+Install **XAMPP**.
 
 ### Step 2
-Start Apache and MySQL.
+
+Start **Apache** and **MySQL**.
 
 ### Step 3
+
 Create a database named:
 
+```
 spendwise
+```
 
 ### Step 4
-Import the required database tables.
+
+Import the required SQL database.
 
 ### Step 5
+
 Copy the project folder into:
 
+```
 xampp/htdocs/
+```
 
 ### Step 6
-Open your browser and run:
 
-http://localhost/SpendWise/
+Open your browser:
+
+```
+http://localhost:8081/SpendWise/
+```
+
+> **Note:** If Apache is running on the default port, use:
+>
+> ```
+> http://localhost/SpendWise/
+> ```
 
 ---
 
-## 📷 Project Diagrams
+## 📷 System Diagrams
 
 - ER Diagram
 - Use Case Diagram
 
-Both diagrams are available in this repository.
+Both diagrams are included in this repository.
 
 ---
 
 ## 🎓 Academic Purpose
 
-This project was developed as a Mini Project for academic learning and demonstration purposes.
+This project was developed as a Mini Project for the Bachelor of Technology (B.Tech) degree in Artificial Intelligence and Data Science. It demonstrates the practical implementation of web development, database management, and financial analytics concepts.
 
 ---
 
@@ -209,7 +300,7 @@ This project was developed as a Mini Project for academic learning and demonstra
 
 **Kamalika Senthilnathan**
 
-B.Tech Artificial Intelligence and Data Science
+B.Tech – Artificial Intelligence and Data Science
 
 2026
 
@@ -217,4 +308,4 @@ B.Tech Artificial Intelligence and Data Science
 
 ## 📄 License
 
-This project is intended for educational and academic purposes only.
+This project is intended solely for educational and academic purposes.
