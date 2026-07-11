@@ -234,6 +234,16 @@ Allows users to configure budgets, savings goals, currency, notifications, and a
 ![Settings](screenshots/settings.png)
 
 ---
+### Use Case Diagram
+
+![Use Case Diagram](screenshots/usecase_diagram.png)
+
+## 📐 System Diagrams
+
+### ER Diagram
+
+![ER Diagram](screenshots/er_diagram.png)
+
 
 ## 🚀 How to Run the Project
 
