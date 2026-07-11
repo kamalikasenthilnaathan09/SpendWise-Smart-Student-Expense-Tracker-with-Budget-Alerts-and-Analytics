@@ -135,6 +135,31 @@ Displays expense charts and spending statistics.
 ### 5. Report Module
 Generates printable expense reports.
 
+## 📸 Project Screenshots
+
+### Login
+![Login](screenshots/login.png)
+
+### Signup
+![Signup](screenshots/signup.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Transactions
+![Transactions](screenshots/transaction.png)
+
+### Analytics
+![Analytics](screenshots/analysis.png)
+
+### Reports
+![Reports](screenshots/reports.png)
+
+### Profile
+![Profile](screenshots/profile.png)
+
+### Settings
+![Settings](screenshots/settings.png)
 ---
 
 ## 🚀 How to Run the Project
