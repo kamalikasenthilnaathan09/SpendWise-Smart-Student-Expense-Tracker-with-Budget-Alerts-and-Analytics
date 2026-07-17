@@ -167,6 +167,6 @@ SpendWise is a practical and efficient web application that helps students manag
 
 # 👩‍💻 DEVELOPED BY
 
-## KAMALIKA YS
+## Y S KAMALIKA 
 
 ---
