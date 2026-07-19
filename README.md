@@ -1,10 +1,6 @@
 # 💰 SpendWise – Smart Student Expense Tracker with Budget Alerts and Analytics
 
 <p align="center">
-  <img src="logo.png" alt="SpendWise Logo" width="780">
-</p>
-
-<p align="center">
   <b>A modern full-stack web application that helps students manage their personal finances with smart budgeting, expense tracking, savings monitoring, and interactive analytics.</b>
 </p>
 
