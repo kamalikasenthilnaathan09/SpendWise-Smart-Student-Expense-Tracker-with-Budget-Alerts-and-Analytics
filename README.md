@@ -1,7 +1,7 @@
 # 💰 SpendWise – Smart Student Expense Tracker with Budget Alerts and Analytics
 
 <p align="center">
-  <img src="logo.png" alt="SpendWise Logo" width="180">
+  <img src="logo.png" alt="SpendWise Logo" width="780">
 </p>
 
 <p align="center">
